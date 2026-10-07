@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Formulário de Contato</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="titulos">
+            <h1>Crie e compartilhe seu evento.</h1>
+            <h3>O primeiro passo, é preencher esse formulário de inscrição.</h3>
+        </div>
+    </header>
+    <form class="formulario">
+
+    	<h1>Informações do Evento</h1>
+    	<hr>
+        <label>Título de Evento: <span>(mínimo 8 caracteres)</span></label>
+        
+        <input class="input" type="" name="">
+        <label>Link do Evento: <span>(comece co https://</span></label>
+
+        <input class="input" type="" name="">
+
+        <label>Whatsapp para contato: <span>(somente números)<span></label>
+
+        <input class="input" type="" name="">
+
+        <label>Informações  extras: </label>
+
+        <textarea class="input" name="info-extras" ></textarea>
+
+        <label>Categoria:</label>
+
+		<select class="input" name="categoria">
+		    <option value="ao-vivo">Ao vivo</option>
+		    <option value="online">Online</option>
+		    <option value="presencial">Presencial</option>
+		    <option value="Social">Social</option>
+		    <option value="Academica">Academica</option>
+		    <option value="Corporativa">Corporativa</option>
+		</select>
+
+    </form>
+    <form class="formulario">
+
+    	<h1>Privacidade</h1>
+
+    	<hr>
+
+    	<label>E-mail do administrador: <span>(digite um email valido)</span></label>
+
+    	<input class = "input" type =""name="">
+    	
+    	<label>senha de acesso para os participantes: <span>(mínimo 8 caracteres)</span></label>
+
+    	<input class = "input" type="" name="">
+
+    	<label class="checkbox-container">
+		<input type="checkbox" name="evento_privado">
+		Evento privado
+		</label>
+    </form>
+    <form class = "formulario">
+    	
+    	<h1>Dia e Hora</h1>
+
+    	<hr>
+		  
+		<div class="linha">
+		  <div class="campo campo-data">
+		    <label for="data">Data</label>
+		    <input class="input" type="" name="data">
+		  </div>
+
+		  <div class="campo">
+		    <label for="das">Das</label>
+		    <input class="input"  name="das" placeholder="19:00">
+		  </div>
+
+		  <div class="campo">
+		    <label for="ate">Até</label>
+		    <input class="input" type="" name="ate" placeholder="20:00">
+		  </div>
+		</div>
+		
+    	<button type="submit" class="botao">Salvar Evento</button>
+
+
+    </form>
+</body>
+</html>
